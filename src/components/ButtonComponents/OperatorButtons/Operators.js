@@ -1,10 +1,12 @@
 import React from "react";
+import { OperatorButton } from "./OperatorButton.js";
+import { operators } from "../../../data.js";
 
 //import any components needed
 
 //Import your array data to from the provided data file
 
-const Operators = () => {
+export const Operators = () => {
   // STEP 2 - add the imported data to state
   return (
     <div>
